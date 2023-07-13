@@ -2,6 +2,7 @@ package exercicio1
 
 import java.util.*
 
+//instanciamento de objetos
 class Loja {
     fun loja() {
         val codigoTeste = UUID.randomUUID()
@@ -35,10 +36,4 @@ class Loja {
         }
         println("O produto não foi encontrado.")
     }
-
 }
-
-//fun main() {
-//    val loja = Loja()
-//    loja.main()
-//}

@@ -1,5 +1,6 @@
 package exercicio2
 
+//instanciamento de objetos
 fun main() {
     val formas = arrayOf(Circulo(2f), Retangulo(1f, 2f), Quadrado(4f), Circulo(3f), Retangulo(6f, 2f))
 
@@ -20,5 +21,4 @@ fun main() {
         println("Área: ${forma.calcularArea()}")
         println("Perímetro: ${forma.calcularPerimetro()}\n")
     }
-
 }

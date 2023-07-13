@@ -2,6 +2,7 @@ package exercicio1
 
 import java.util.UUID
 
+//classe abstrata com definição de atributos e métodos e implementação do equals
 abstract class Item(val nome: String, val preco: Double, val codigoDeBarras: UUID) {
     abstract fun mostrarDetalhesDoItem()
 
